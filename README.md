@@ -1,5 +1,5 @@
 # HLSqliteModelTool
-一个基于sqlite3的面向对象的数据库存储工具
+一个基于sqlite3的面向对象的数据库存储工具,一句代码实现数据模型的CURD.
 
 ## 集成方式
 1.直接下载,拖入HLSqliteModelTool文件,导入系统库sqlite3
