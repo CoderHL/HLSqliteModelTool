@@ -7,15 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7949028601657C80BEE7E486 /* Pods_HLSqliteModelToolDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB849393F4EE2EF8F172C435 /* Pods_HLSqliteModelToolDemo.framework */; };
 		A2DBC2CF215E120300131494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2CE215E120300131494 /* AppDelegate.m */; };
 		A2DBC2D5215E120300131494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DBC2D3215E120300131494 /* Main.storyboard */; };
 		A2DBC2D7215E120300131494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DBC2D6215E120300131494 /* Assets.xcassets */; };
 		A2DBC2DA215E120300131494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DBC2D8215E120300131494 /* LaunchScreen.storyboard */; };
 		A2DBC2DD215E120300131494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2DC215E120300131494 /* main.m */; };
-		A2DBC2ED215E12CC00131494 /* HLSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2E5215E12CC00131494 /* HLSqliteTool.m */; };
-		A2DBC2EE215E12CC00131494 /* HLModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2EA215E12CC00131494 /* HLModelTool.m */; };
-		A2DBC2EF215E12CC00131494 /* HLTableTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2EB215E12CC00131494 /* HLTableTool.m */; };
-		A2DBC2F0215E12CC00131494 /* HLSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2EC215E12CC00131494 /* HLSqliteModelTool.m */; };
 		A2DBC2F3215E130F00131494 /* HLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2F2215E130F00131494 /* HLPerson.m */; };
 		A2DBC2F6215E131B00131494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DBC2F5215E131B00131494 /* ViewController.m */; };
 		A2DBC2F9215E204300131494 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DBC2F8215E204300131494 /* libsqlite3.0.tbd */; };
@@ -30,20 +27,14 @@
 		A2DBC2D9215E120300131494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DBC2DB215E120300131494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2DBC2DC215E120300131494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2DBC2E4215E12CB00131494 /* HLModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLModelTool.h; sourceTree = "<group>"; };
-		A2DBC2E5215E12CC00131494 /* HLSqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSqliteTool.m; sourceTree = "<group>"; };
-		A2DBC2E6215E12CC00131494 /* HLTableTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTableTool.h; sourceTree = "<group>"; };
-		A2DBC2E7215E12CC00131494 /* HLModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLModelProtocol.h; sourceTree = "<group>"; };
-		A2DBC2E8215E12CC00131494 /* HLSqliteModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSqliteModelTool.h; sourceTree = "<group>"; };
-		A2DBC2E9215E12CC00131494 /* HLSqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSqliteTool.h; sourceTree = "<group>"; };
-		A2DBC2EA215E12CC00131494 /* HLModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLModelTool.m; sourceTree = "<group>"; };
-		A2DBC2EB215E12CC00131494 /* HLTableTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTableTool.m; sourceTree = "<group>"; };
-		A2DBC2EC215E12CC00131494 /* HLSqliteModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSqliteModelTool.m; sourceTree = "<group>"; };
 		A2DBC2F1215E130F00131494 /* HLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPerson.h; sourceTree = "<group>"; };
 		A2DBC2F2215E130F00131494 /* HLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPerson.m; sourceTree = "<group>"; };
 		A2DBC2F4215E131B00131494 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2DBC2F5215E131B00131494 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2DBC2F8215E204300131494 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		BB849393F4EE2EF8F172C435 /* Pods_HLSqliteModelToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLSqliteModelToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD1BDB0E2CA26D320B8A53B /* Pods-HLSqliteModelToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSqliteModelToolDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HLSqliteModelToolDemo/Pods-HLSqliteModelToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D215A82BF0A11162752B8848 /* Pods-HLSqliteModelToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLSqliteModelToolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HLSqliteModelToolDemo/Pods-HLSqliteModelToolDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,18 +43,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DBC2F9215E204300131494 /* libsqlite3.0.tbd in Frameworks */,
+				7949028601657C80BEE7E486 /* Pods_HLSqliteModelToolDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80D9445838FA3EEED4824886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1BDB0E2CA26D320B8A53B /* Pods-HLSqliteModelToolDemo.debug.xcconfig */,
+				D215A82BF0A11162752B8848 /* Pods-HLSqliteModelToolDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A2DBC2C1215E120300131494 = {
 			isa = PBXGroup;
 			children = (
 				A2DBC2CC215E120300131494 /* HLSqliteModelToolDemo */,
 				A2DBC2CB215E120300131494 /* Products */,
 				A2DBC2F7215E204300131494 /* Frameworks */,
+				80D9445838FA3EEED4824886 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +80,6 @@
 		A2DBC2CC215E120300131494 /* HLSqliteModelToolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A2DBC2E3215E128E00131494 /* HLSqliteModelTool */,
 				A2DBC2CD215E120300131494 /* AppDelegate.h */,
 				A2DBC2CE215E120300131494 /* AppDelegate.m */,
 				A2DBC2F4215E131B00131494 /* ViewController.h */,
@@ -94,26 +95,11 @@
 			path = HLSqliteModelToolDemo;
 			sourceTree = "<group>";
 		};
-		A2DBC2E3215E128E00131494 /* HLSqliteModelTool */ = {
-			isa = PBXGroup;
-			children = (
-				A2DBC2E7215E12CC00131494 /* HLModelProtocol.h */,
-				A2DBC2E4215E12CB00131494 /* HLModelTool.h */,
-				A2DBC2EA215E12CC00131494 /* HLModelTool.m */,
-				A2DBC2E8215E12CC00131494 /* HLSqliteModelTool.h */,
-				A2DBC2EC215E12CC00131494 /* HLSqliteModelTool.m */,
-				A2DBC2E9215E12CC00131494 /* HLSqliteTool.h */,
-				A2DBC2E5215E12CC00131494 /* HLSqliteTool.m */,
-				A2DBC2E6215E12CC00131494 /* HLTableTool.h */,
-				A2DBC2EB215E12CC00131494 /* HLTableTool.m */,
-			);
-			path = HLSqliteModelTool;
-			sourceTree = SOURCE_ROOT;
-		};
 		A2DBC2F7215E204300131494 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A2DBC2F8215E204300131494 /* libsqlite3.0.tbd */,
+				BB849393F4EE2EF8F172C435 /* Pods_HLSqliteModelToolDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2DBC2E0215E120300131494 /* Build configuration list for PBXNativeTarget "HLSqliteModelToolDemo" */;
 			buildPhases = (
+				F487186F5F01D6E4B0531EA1 /* [CP] Check Pods Manifest.lock */,
 				A2DBC2C6215E120300131494 /* Sources */,
 				A2DBC2C7215E120300131494 /* Frameworks */,
 				A2DBC2C8215E120300131494 /* Resources */,
+				94534696F95466752FCA9696 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,18 +172,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94534696F95466752FCA9696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HLSqliteModelToolDemo/Pods-HLSqliteModelToolDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HLSqliteModelTool/HLSqliteModelTool.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HLSqliteModelTool.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HLSqliteModelToolDemo/Pods-HLSqliteModelToolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F487186F5F01D6E4B0531EA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLSqliteModelToolDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2DBC2C6215E120300131494 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2DBC2ED215E12CC00131494 /* HLSqliteTool.m in Sources */,
 				A2DBC2DD215E120300131494 /* main.m in Sources */,
 				A2DBC2F6215E131B00131494 /* ViewController.m in Sources */,
-				A2DBC2F0215E12CC00131494 /* HLSqliteModelTool.m in Sources */,
 				A2DBC2F3215E130F00131494 /* HLPerson.m in Sources */,
-				A2DBC2EE215E12CC00131494 /* HLModelTool.m in Sources */,
-				A2DBC2EF215E12CC00131494 /* HLTableTool.m in Sources */,
 				A2DBC2CF215E120300131494 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +351,7 @@
 		};
 		A2DBC2E1215E120300131494 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD1BDB0E2CA26D320B8A53B /* Pods-HLSqliteModelToolDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +366,7 @@
 		};
 		A2DBC2E2215E120300131494 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D215A82BF0A11162752B8848 /* Pods-HLSqliteModelToolDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

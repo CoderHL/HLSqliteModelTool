@@ -1,0 +1,16 @@
+PODS:
+  - HLSqliteModelTool (0.0.1)
+
+DEPENDENCIES:
+  - HLSqliteModelTool (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HLSqliteModelTool
+
+SPEC CHECKSUMS:
+  HLSqliteModelTool: 2ecaecc6f6d761e47b0d447ba3e98958730305d4
+
+PODFILE CHECKSUM: 07c92d98b20aef2bedb5b854c75bc4e29db6c08a
+
+COCOAPODS: 1.5.3

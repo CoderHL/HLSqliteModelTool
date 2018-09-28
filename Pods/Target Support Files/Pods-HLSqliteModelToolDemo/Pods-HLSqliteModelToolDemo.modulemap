@@ -1,0 +1,6 @@
+framework module Pods_HLSqliteModelToolDemo {
+  umbrella header "Pods-HLSqliteModelToolDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
